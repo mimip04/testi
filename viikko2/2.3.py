@@ -1,0 +1,6 @@
+kanta=float(input("Suorakulmion kanta:"))
+korkeus=float(input("Suorakulmion korkeus:"))
+Piiri=(2*kanta+2*korkeus)
+Area=(kanta*korkeus)
+print("Piiri:"+str(Piiri))
+print("Area:",Area)
