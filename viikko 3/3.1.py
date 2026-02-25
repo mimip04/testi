@@ -1,10 +1,12 @@
-kuha=float(input("Montako cm kuha on?:"))
-    if kuha < 37:
-    print("laske kuha takaisin järveen.")
+kuha= float(input("anna kuhan pituus:"))
 
-    else:
-    puuttuva=37-kuha
-    print ("kuha on", puuttuva)
+if kuha < 37:
+    erotus= 37-kuha
+    print("laske kuha takaisin järveen. Se oli", erotus, "cm liian lyhyt")
+
+else:
+    print("hieno kala")
+    
 
 
 
